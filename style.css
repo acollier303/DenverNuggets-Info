@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+    font-family: 'cabin';
+    background-color:#0E2240;
+    color:#F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: #8B2131;
+    height: px;
+    color: #FFF;
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px black;
+}
+
+header:div{
+    display:flex;
+    line-height: 0em;
+}
+
+header h1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.player {
+    font-family: 'cabin';
+    background-color:#0D0D0D
+}
+
+form {
+	padding: .875em 1.875em 1.875em;
+	background: #9BBEEF;
+	border: 2px solid rgba(8, 63, 87, 0.6);
+	border-radius: 3px;
+}
+
+#root {
+    width: 90%;
+
+}
+
+.teamDiv {
+    background: #fff;
+    margin: 70px auto;
+    box-shadow: 0 2px 0 rgb(67, 66, 68);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+.teamInfo {
+      color: #0E2240;
+      margin: 20px;
+      border: 10px;
+      border-radius: 10;
+  }
+
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  #menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30px;
+  }
+
+  #menu li{
+      color: #8B2131; 
+      list-style-type: none;
+      font-size: 1.5em;
+      padding: 2em;
+  }
